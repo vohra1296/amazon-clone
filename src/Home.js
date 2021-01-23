@@ -1,13 +1,13 @@
 import   React  from 'react';
 import "./Home.css"
-import home_image from "/Users/cowell.cor/Desktop/clone/amazoneclone/src/image/MTM3M2NhM2Et-MzgwYzQ0MTct-w1500._CB411759470_.jpg"
+import home_image from "./image/MTM3M2NhM2Et-MzgwYzQ0MTct-w1500._CB411759470_.jpg"
 import Product from "./Product";
-import prod1 from "/Users/cowell.cor/Desktop/clone/amazoneclone/src/image/GreenWorksprod01.jpg";
-import prod2 from "/Users/cowell.cor/Desktop/clone/amazoneclone/src/image/FujiFilmprod02.jpg"
-import prod3 from "/Users/cowell.cor/Desktop/clone/amazoneclone/src/image/prod3.jpg";
-import prod4 from "/Users/cowell.cor/Desktop/clone/amazoneclone/src/image/prod4.jpg";
-import prod5 from "/Users/cowell.cor/Desktop/clone/amazoneclone/src/image/prod5.jpg";
-import prod6 from "/Users/cowell.cor/Desktop/clone/amazoneclone/src/image/prod6.jpg";
+import prod1 from "./image/GreenWorksprod01.jpg";
+import prod2 from "./image/FujiFilmprod02.jpg"
+import prod3 from "./image/prod3.jpg";
+import prod4 from "./image/prod4.jpg";
+import prod5 from "./image/prod5.jpg";
+import prod6 from "./image/prod6.jpg";
 
 
 function Home(){
@@ -38,12 +38,12 @@ function Home(){
                 
             </div>
             <div className= "home_row">
-            
-            <Product 
-             title= "Keter Unity Indoor Outdoor BBQ Entertainment Storage Table/Prep Station with Metal Top" 
-             price ="229.00"
-             image={prod4} 
-             rating = {4}/>
+                <Product 
+                    title= "Keter Unity Indoor Outdoor BBQ Entertainment Storage Table/Prep Station with Metal Top" 
+                    price ="229.00"
+                    image={prod4} 
+                    rating = {4}
+                 />
             <Product
              title= "Furinno 15111EXBKBR Jaya Computer Study Desk with Bin, Brown" 
              price ="89.99"

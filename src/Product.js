@@ -1,9 +1,29 @@
+import { Button } from '@material-ui/core';
 import   React  from 'react';
 import "./Product.css";
+import { useStateValue } from './StateProvider';
 
 function Product({title,image,price,rating}){
+    const [state, dispatch] = useStateValue();
+    
+    const addToBasket = () =>{
+        dispatch({
+            type: 'ADD_TO_BASKET',
+            item:{
+                title: title,
+                image: image,
+                    price: price,
+                rating: rating
+
+            },
+        });
+    }
+   
+  
     return(
+        <React.Fragment>
         <div className = "product">
+            
             <div className = "product_info">
             <p>{title}</p>
             <p className = "product_price">
@@ -15,9 +35,11 @@ function Product({title,image,price,rating}){
             </div>
             </div>
             <img src = {image} />
-            <button> Add to Basket</button>
-
+              <button  className="button" onClick = {addToBasket}>Add Basket</button>
         </div>
+      
+        </React.Fragment>
+       
     );
 }
 export default Product;
