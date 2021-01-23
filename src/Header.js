@@ -19,6 +19,10 @@ function Header(){
             <input className= "header_searchInput"
                    type="text"/>
                    <SearchIcon className ="header_searchIcon"/>
+
+
+
+                
         </div>
     <div div className="header_nav">
         <div className="header_option">
