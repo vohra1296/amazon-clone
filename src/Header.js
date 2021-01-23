@@ -1,6 +1,6 @@
 import React from 'react';
 import SearchIcon from "@material-ui/icons/Search";
-import logo from "C:/Users/spade/amazon-clone/src/image/amazon_logo_noto_email_v2016_au-main._CB444479176_.png"
+import logo from "./image/amazon_logo_noto_email_v2016_au-main._CB444479176_.png"
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 import { Link } from "react-router-dom";
 import './Header.css'
@@ -19,6 +19,10 @@ function Header(){
             <input className= "header_searchInput"
                    type="text"/>
                    <SearchIcon className ="header_searchIcon"/>
+
+
+
+                
         </div>
     <div div className="header_nav">
         <div className="header_option">

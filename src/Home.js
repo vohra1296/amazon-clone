@@ -18,20 +18,23 @@ function Home(){
                src ={home_image} />
             <div className= "home_row">
                 <Product 
+                id={1}
                 title= "GreenWorks 2600502 13 Amp 20-Inch Corded Snow Thrower" 
-                price ="159.00"
+                price = {159.00}
                 image={prod1} 
                 rating = {3}
                 />
                 <Product
+                    id={2}
                     title= "Fujifilm Instax Mini 11 Instant Camera - Sky Blue" 
-                    price ="89.00"
+                    price ={89.00}
                     image={prod2} 
                     rating = {4}
                                  />
                 <Product 
+                 id={3}
                  title= "Bamboo Living Ultra Soft Silky Deep Pocket Solid Rayon from Bamboo 6 Pieces Sheet Set with 4 Pillowcases, Black Color Queen Size" 
-                 price ="31.00"
+                 price ={31.00}
                  image={prod3} 
                  rating = {3}/>
                 
@@ -39,22 +42,25 @@ function Home(){
             </div>
             <div className= "home_row">
                 <Product 
+                    id={4}
                     title= "Keter Unity Indoor Outdoor BBQ Entertainment Storage Table/Prep Station with Metal Top" 
-                    price ="229.00"
+                    price ={229.00}
                     image={prod4} 
                     rating = {4}
                  />
             <Product
+             id={5}
              title= "Furinno 15111EXBKBR Jaya Computer Study Desk with Bin, Brown" 
-             price ="89.99"
+             price ={89.99}
              image={prod5} 
              rating = {4} />
                 
             </div>
             <div className= "home_row">
             <Product
+             id={6}
              title= "AmazonBasics Classic Office Desk Computer Chair - Adjustable, Swiveling, Ultra-Soft Microfiber - Light Gray, Lumbar Support" 
-             price ="159.99"
+             price ={159.99}
              image={prod6} 
              rating = {3} />
             </div>
