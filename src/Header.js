@@ -19,12 +19,9 @@ function Header(){
             <input className= "header_searchInput"
                    type="text"/>
                    <SearchIcon className ="header_searchIcon"/>
-
-
-
-                
         </div>
     <div div className="header_nav">
+        <Link to='/login'>
         <div className="header_option">
             <span
             className="header_optionOne">Hello Guest
@@ -33,6 +30,7 @@ function Header(){
                 className="header_optionTwo">Sign In
                 </span>
         </div>
+        </Link>
         <div className="header_option">
                <span
                    className="header_optionOne">Returns

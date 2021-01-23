@@ -9,7 +9,6 @@ function Checkout() {
     return (
         <div className= "checkout">
         <div className= "checkout_left">
-        <img className ="checkout_ad" src ={ad} />
             <div>
                 <h2 className= "checkout_title">Your Shopping Basket</h2>
 
