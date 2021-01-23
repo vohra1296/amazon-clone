@@ -16,3 +16,8 @@
     padding: 10px;
     border-bottom: 1px solid  lightgray;
 }
+
+.checkout_right{
+    display: flex;
+    margin-left: 30px;
+}
