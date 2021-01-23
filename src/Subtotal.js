@@ -23,8 +23,8 @@ function Subtotal() {
             prefix= {"CDN$ "}
             />
 
-            <button>Proceed To Checkout</button>
-        </div>
+        <button>Proceed to Checkout</button>
+        </div> 
     )
 }
 

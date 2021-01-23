@@ -7,7 +7,7 @@ import './Header.css'
 import { useStateValue } from './StateProvider';
 
 function Header(){
-    const [{basket},dispatch] = useStateValue();
+    const [{ basket },dispatch] = useStateValue();
     return(
         <div className = 'header'>
             <Link to= "/">
@@ -47,8 +47,8 @@ function Header(){
         </div>
         <Link to="/checkout">
         <div className="header_optionBasket">
-            <ShoppingBasketIcon />
-               <span className="header_optionOne" >{basket?.length}</span>
+            <ShoppingBasketIcon />&nbsp;
+               <span className="header_optionOne" >{basket?.length}&nbsp;&nbsp;&nbsp;</span>
         </div>
         </Link>
     </div>
